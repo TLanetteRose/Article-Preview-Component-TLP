@@ -36,14 +36,12 @@ body {
 }
 
 .container-fluid {
-    max-width: 800px;
+    max-width: 725px;
     max-height: 300px;
     margin: auto;
 }
 
-.card {
-    background-color: var(--preview-bg);
-}
+/* Card Style */
 
 
 
