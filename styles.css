@@ -5,6 +5,7 @@
     --desat-dk-blue: hsl(214, 17%, 51%);
     --grayish-blue: hsl(212, 23%, 69%);
     --lt-grayish-blue: hsl(210, 46%, 95%);
+    --preview-bg: hsl(0, 100%, 100%); 
     --md-font-weight: 500;
     --heavy-font-weight: 700;
     --body-font-size: 13px;
@@ -31,6 +32,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: var(--lt-grayish-blue);
 }
 
 .container-fluid {
@@ -39,6 +41,9 @@ body {
     margin: auto;
 }
 
+.card {
+    background-color: var(--preview-bg);
+}
 
 
 
@@ -50,7 +55,6 @@ body {
    left: 0;
    right: 0;
    bottom: 0;
-   background-color: blue;
    padding: 20px;
    flex-shrink: 0;
 }
