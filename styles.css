@@ -5,6 +5,7 @@
     --desat-dk-blue: hsl(214, 17%, 51%);
     --grayish-blue: hsl(212, 23%, 69%);
     --lt-grayish-blue: hsl(210, 46%, 95%);
+    --preview-bg: hsl(0, 100%, 100%); 
     --md-font-weight: 500;
     --heavy-font-weight: 700;
     --body-font-size: 13px;
@@ -24,11 +25,37 @@ html {
 }
 
 html, body {
-    height: 100%; 
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lt-grayish-blue);
+}
+
+.container-fluid {
+    max-width: 725px;
+    max-height: 300px;
+    margin: auto;
+}
+
+/* Card Style */
+
+
+
+
+/* Footer */ 
+
+.footer {
+   margin-top: 250px;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   padding: 20px;
+   flex-shrink: 0;
+}
 
 
 /* Attribution */ 
