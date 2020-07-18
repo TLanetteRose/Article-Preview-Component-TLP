@@ -6,6 +6,7 @@
     --grayish-blue: hsl(212, 23%, 69%);
     --lt-grayish-blue: hsl(210, 46%, 95%);
     --preview-bg: hsl(0, 100%, 100%); 
+    --card-box-shadow: box-shadow(0 10px 20px rgba(0, 0, 0, 0.15));
     --md-font-weight: 500;
     --heavy-font-weight: 700;
     --body-font-size: 13px;
@@ -33,15 +34,71 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--lt-grayish-blue);
-}
-
-.container-fluid {
-    max-width: 725px;
-    max-height: 300px;
-    margin: auto;
+    font-family: var(--body-font-family);
 }
 
 /* Card Style */
+
+.card {
+    margin: 250px auto;
+    display: flex;
+    min-height: 260px;
+    max-width: 725px;
+    background-color: var(--preview-bg);
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: var(--card-box-shadow);
+}
+
+.left-column {
+    height: 280px;
+    max-width: 280px;
+    
+}
+
+.right-column {
+    position: relative;
+    flex-grow: 1;
+    padding: 2em;
+    height: 280px;
+}
+
+.article-title {
+    color: var(--very-dk-grayish-blue);
+    font-size: 20px;
+    font-weight: var(--heavy-font-weight);
+    margin-bottom: 1em;
+}
+
+.article-summary,
+.article-date  {
+    color: var(--grayish-blue);
+    font-weight: var(--md-font-weight);
+    font-size: 0.85em;
+}
+
+.author-info {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.author {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.author-name {
+    color: var(--desat-dk-blue);
+    font-size: 0.9em;
+}
+
+.author-info,
+.credentials {
+    flex: 1;
+    padding: 10px 5px;
+}
 
 
 
@@ -49,7 +106,6 @@ body {
 /* Footer */ 
 
 .footer {
-   margin-top: 250px;
    left: 0;
    right: 0;
    bottom: 0;
