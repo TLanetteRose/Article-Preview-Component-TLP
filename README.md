@@ -13,7 +13,7 @@ Your users should be able to:
 
 
 ## Completed Design
-You can see the my final design here: [Article Preview Component](hhttps://tlanetterose.github.io/Job-Listings-Page-Using-VanillaJS-TLP/)
+You can see the my final design here: [Article Preview Component](https://tlanetterose.github.io/Article-Preview-Component-TLP/)
 
 Designer: [T.Lanette Pollard](https://github.com/TLanetteRose)
 
