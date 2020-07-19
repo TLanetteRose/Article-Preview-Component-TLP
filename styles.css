@@ -41,7 +41,7 @@ body {
 .card {
     margin: 250px auto;
     display: flex;
-    min-height: 260px;
+    min-height: 280px;
     max-width: 725px;
     background: var(--preview-bg);
     border-radius: 5px;
