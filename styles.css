@@ -113,19 +113,29 @@ body {
     height: 30px;
     width: 30px;
     margin-top: 5px;
-    background: var(--very-dk-grayish-blue);
+    background: var(--lt-grayish-blue);
     border-radius: 50%;
     z-index: 1000;
     margin-right: 0.5em;
 }
+
 
 .share-button #btn {
     cursor: pointer;
     object-fit: contain;
     height: 100%;
     width: 100%;
-    margin-top: 6px;
+    margin-top: 7px;
     margin-left: 6px;
+    fill:hsl(217, 19%, 35%);
+}
+
+.share-icon path:active {
+    fill: hsl(210, 46%, 95%);
+}
+
+.share-button:active {
+    background-color: hsl(217, 19%, 35%);
 }
 
 .share {
@@ -235,8 +245,10 @@ body {
         display: none;
     }
     .share-button {
-        background: var(--desat-dk-blue);
         border-radius: 100%;
+        display: inline-block;
+        margin-bottom: 8px;
+        
     }   
     .share-button #btn {
         margin-top: 8px;
