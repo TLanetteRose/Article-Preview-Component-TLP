@@ -20,10 +20,9 @@
    /* outline: 1px solid black;*/
 }
 
-html,body {
+html, body {
     height: 100vh;
     margin: 0;
-    font-family: var(--body-font-family);
 }
 
 html {
@@ -34,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--lt-grayish-blue);
-    
+    font-family: var(--body-font-family);
 }
 
 /* Article-Card Style */
@@ -83,6 +82,8 @@ body {
 
 .avatar {
     display: flex;
+    padding: 10px 0;
+    align-items: center;
 
 }
 .avatar-image {
@@ -91,10 +92,17 @@ body {
     border-radius: 100%;
 }
 
+.avatar-name {
+    color: var(--desat-dk-blue);
+    font-size: 0.9em;
+}
 
+.avatar,
+.avatar-info {
+    flex: 1;
+    padding: 10px 5px;
+}
 
-
-/*
 .share-button {
     height: 30px;
     width: 30px;
@@ -175,7 +183,7 @@ body {
 .display {
     opacity: 1;
 }
-*/
+
 
 /* Footer */ 
 
