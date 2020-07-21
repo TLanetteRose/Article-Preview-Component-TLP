@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-   /* outline: 1px solid black;*/
+   outline: 1px solid black;
 }
 
 html, body {
@@ -45,10 +45,10 @@ body {
 
 
 .article-card {
+    max-width: 725px;
+    min-height: 280px;
     margin: 250px auto;
     display: flex;
-    max-height: 280px;
-    max-width: 725px;
     border-radius: 5px;
     background-color: var(--preview-bg);
     box-shadow: 1px 2px 22px 8px rgba(0, 0, 0, 0.1);
@@ -57,7 +57,6 @@ body {
 .left-column {
     min-height: 280px;
     max-width: 280px;
-    object-fit: cover;
 }
 
 .right-column {
@@ -103,7 +102,7 @@ body {
     flex: 1;
     padding: 10px 5px;
 }
-/*
+
 .share-button {
     height: 30px;
     width: 30px;
@@ -184,7 +183,7 @@ body {
 .display {
     opacity: 1;
 }
-*/
+
 
 /* Footer */
 
