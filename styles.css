@@ -38,16 +38,16 @@ body {
 }
 
 /* Article-Card Style */
-
+/*
 .article-container {
     position: relative;
     height: 100%;
 }
-
+*/
 .article-card {
     margin: 250px auto;
     display: flex;
-    min-height: 280px;
+    max-height: 280px;
     max-width: 725px;
     border-radius: 5px;
     background-color: var(--preview-bg);
@@ -58,6 +58,37 @@ body {
     min-height: 280px;
     max-width: 280px;
     object-fit: cover;
+}
+
+.right-column {
+    position: relative;
+    flex-grow: 1;
+    padding: 2em;
+    max-height: 280px;
+}
+
+.article-title {
+    color: var(--very-dk-grayish-blue);
+    font-size: 1.2em;
+    font-weight: var(--heavy-font-weight);
+    margin-bottom: 0.5em; 
+}
+
+.article-summary,
+.article-date {
+    color: var(--grayish-blue);
+    font-weight: var(--md-font-weight);
+    font-size: 0.85em;
+}
+
+.avatar {
+    display: flex;
+
+}
+.avatar-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
 }
 
 
