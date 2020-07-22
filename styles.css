@@ -68,8 +68,9 @@ body {
 
 .article-title {
     color: var(--very-dk-grayish-blue);
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: var(--heavy-font-weight);
+    margin-top: -0.5em;
     margin-bottom: 0.5em; 
 }
 
