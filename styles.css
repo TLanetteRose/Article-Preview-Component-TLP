@@ -26,10 +26,6 @@ html, body {
     margin: 0;
 }
 
-html {
-    box-sizing: border-box;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -69,17 +65,17 @@ body {
 
 .article-title {
     color: var(--very-dk-grayish-blue);
-    font-size: 1em;
+    font-size: 1.5em;
     font-weight: var(--heavy-font-weight);
     margin-top: -0.5em;
-    margin-bottom: 0.5em; 
+    margin-bottom: 0.15em;
 }
 
 .article-summary,
 .article-date {
     color: var(--grayish-blue);
     font-weight: var(--md-font-weight);
-    font-size: 0.75em;
+    font-size: 0.85em;
 }
 
 .avatar {
@@ -230,7 +226,10 @@ body {
         width: 100%;
     }
     .avatar {
-        margin-top: 10px;
+        margin-top: -5px;
+    }
+    .article-title {
+        font-size: 1.25em;
     }
     .share {
         top: 72%;
